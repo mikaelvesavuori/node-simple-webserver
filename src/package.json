@@ -1,0 +1,15 @@
+{
+	"name": "node-simple-webserver",
+	"version": "1.0.0",
+	"description": "Simple Node.js server running Fastify",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Mikael Vesavuori",
+	"license": "ISC",
+	"dependencies": {
+		"fastify": "^2.10.0"
+	}
+}
