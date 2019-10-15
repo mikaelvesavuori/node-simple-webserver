@@ -1,6 +1,6 @@
 'use strict';
 
-// Solution based entirely on this discussion and the follow-ups: https://github.com/fastify/fastify/issues/946#issuecomment-461104668
+// Solution based more or less entirely on this discussion and the follow-ups: https://github.com/fastify/fastify/issues/946#issuecomment-461104668
 
 const functions = require('firebase-functions');
 const http = require('http');
