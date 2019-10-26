@@ -18,7 +18,7 @@ fastify.get('/', async (req, reply) =>
 	reply
 		.header('Content-Type', 'text/html')
 		.send(
-			`<html><head><title>Simple serverless Node.js webserver</title></head><p>Simple serverless Node.js webserver</p></html>`
+			`<html><head><title>Simple serverless Node.js webserver</title></head><body><p>Simple serverless Node.js webserver</p></body></html>`
 		)
 );
 
