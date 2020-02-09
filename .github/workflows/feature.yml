@@ -1,4 +1,4 @@
-name: CI, testing, and publishing to NPM
+name: CI and testing
 
 on:
   push:
@@ -23,9 +23,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm run build --if-present
-      - run: npm audit
-      - run: npm test
+        working-directory: ./src
+        run: |
+          npm ci
+          npm run build --if-present
+          npm audit
+          npm test
         env:
           CI: true
