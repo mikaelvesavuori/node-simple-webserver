@@ -5,7 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest __tests__ --collectCoverage",
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "webserver",
@@ -18,9 +20,11 @@
   "author": "Mikael Vesavuori",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^2.13.0"
+    "fastify": "^2.13.0",
+    "snyk": "^1.319.2"
   },
   "devDependencies": {
     "jest": "^25.2.3"
-  }
+  },
+  "snyk": true
 }
