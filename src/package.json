@@ -20,7 +20,7 @@
   "author": "Mikael Vesavuori",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^2.13.0",
+    "fastify": "^2.13.1",
     "snyk": "^1.319.2"
   },
   "devDependencies": {
