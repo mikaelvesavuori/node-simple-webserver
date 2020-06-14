@@ -21,7 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "fastify": "^2.14.1",
-    "snyk": "^1.321.0"
+    "snyk": "^1.324.0"
   },
   "devDependencies": {
     "jest": "^25.5.4"
