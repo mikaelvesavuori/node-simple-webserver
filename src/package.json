@@ -3,6 +3,10 @@
   "version": "1.0.4",
   "description": "Simple Node.js server running Fastify",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikaelvesavuori/node-simple-webserver.git"
+  },
   "scripts": {
     "test": "jest __tests__ --collectCoverage",
     "start": "node index.js"

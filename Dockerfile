@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:14-alpine
 WORKDIR /src
 COPY ./src .
 RUN npm install --only=production

@@ -3,6 +3,10 @@
   "version": "1.0.4",
   "description": "Simple Node.js (serverless) server running Fastify",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikaelvesavuori/node-simple-webserver.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

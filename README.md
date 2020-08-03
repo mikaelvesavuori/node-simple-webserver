@@ -7,6 +7,22 @@ This package sets up a Fastify server responding to two paths:
 
 I made this as a basic "go-to" application for the course "Cloud Developer Basics" that I am running.
 
+## Running locally
+
+Build with:
+
+```
+docker build -t $IMAGE:latest .
+```
+
+Then run it with:
+
+```
+docker run -it -d -p 8080:8080 $IMAGE:latest
+```
+
+Add the `-d` flag like so, `docker run -d -it -p [...]` for detached mode. Execute things inside the container with `docker exec -ti $CONTAINER_ID [command]`.
+
 ## Container or serverless function?
 
 ### The regular version
@@ -37,3 +53,7 @@ Run `build-aws.sh`. This approach uses local Docker to push to ECR via the local
 ### Google Cloud Platform: Cloud Build
 
 Run `build-gcp.sh`. This approach uses the `gcloud` CLI tool to let Cloud Build build the image and store it in Container Registry.
+
+### Azure Container Registry
+
+Run `build-azure.sh`. This approach uses local Docker to push to ACR via the local Azure credentials.
