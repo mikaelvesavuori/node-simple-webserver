@@ -21,7 +21,7 @@ Then run it with:
 docker run -it -d -p 8080:8080 $IMAGE:latest
 ```
 
-Add the `-d` flag like so, `docker run -d -it -p [...]` for detached mode. Execute things inside the container with `docker exec -ti $CONTAINER_ID [command]`.
+For detached mode, add the `-d` flag like so, `docker run -d -it -p [...]`. Execute things inside the container with `docker exec -ti $CONTAINER_ID [command]`.
 
 ## Container or serverless function?
 

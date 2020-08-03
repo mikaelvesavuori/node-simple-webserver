@@ -1,6 +1,7 @@
-export REGION='eu-north1' # EDIT TO YOUR VALUE
-export IMAGE='someproject' # EDIT TO YOUR VALUE
-export ACCOUNT_NUMBER='123412341234' # EDIT TO YOUR VALUE
+# EDIT THE BELOW TO YOUR VALUES
+export REGION='eu-north1'
+export IMAGE='nodesimplewebserver'
+export ACCOUNT_NUMBER='123412341234'
 
 aws ecr get-login --no-include-email --region ${REGION} | /bin/bash
 cd src
