@@ -1,6 +1,6 @@
 {
   "name": "node-simple-webserver",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple Node.js server running Fastify",
   "main": "src/index.js",
   "repository": {
@@ -22,9 +22,9 @@
   "author": "Mikael Vesavuori",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.1.1"
+    "fastify": "^3.4.1"
   },
   "devDependencies": {
-    "jest": "^26.2.2"
+    "jest": "^26.4.2"
   }
 }
