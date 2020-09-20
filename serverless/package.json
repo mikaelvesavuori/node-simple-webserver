@@ -1,6 +1,6 @@
 {
   "name": "node-simple-webserver-serverless",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple Node.js (serverless) server running Fastify",
   "main": "index.js",
   "repository": {
@@ -14,8 +14,8 @@
   "author": "Mikael Vesavuori",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.1.1",
-    "firebase-admin": "^9.0.0",
-    "firebase-functions": "^3.8.0"
+    "fastify": "^3.4.1",
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
   }
 }
