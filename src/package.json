@@ -22,9 +22,9 @@
   "author": "Mikael Vesavuori",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.6.0"
+    "fastify": "^3.9.2"
   },
   "devDependencies": {
-    "jest": "^26.5.3"
+    "jest": "^26.6.3"
   }
 }
