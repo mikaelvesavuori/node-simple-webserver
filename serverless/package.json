@@ -14,7 +14,7 @@
   "author": "Mikael Vesavuori",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.9.2",
+    "fastify": "^3.29.4",
     "firebase-admin": "^9.5.0",
     "firebase-functions": "^3.13.0"
   }
