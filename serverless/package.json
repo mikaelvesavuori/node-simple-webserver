@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "fastify": "^3.9.2",
-    "firebase-admin": "^9.5.0",
+    "firebase-admin": "^11.4.1",
     "firebase-functions": "^3.13.0"
   }
 }
